@@ -1,0 +1,3 @@
+- progress bar with checkpoint
+- Visionnising avec git
+- 
