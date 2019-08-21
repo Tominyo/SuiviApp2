@@ -4,7 +4,7 @@ import java.util.Date;
 
 public class Commit {
 
-    private Date date;
+    private String date;
     private int id;
     private String message;
 
@@ -12,17 +12,17 @@ public class Commit {
 
     }
 
-    public Commit(String message, int id, Date date){
+    public Commit(String message, int id, String date){
         this.message = message;
         this.id = id;
         this.date = date;
     }
 
-    public Date getDate() {
+    public String getDate() {
         return date;
     }
 
-    public void setDate(Date date) {
+    public void setDate(String date) {
         this.date = date;
     }
 

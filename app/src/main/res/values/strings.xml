@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">SuiviApp2</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet lorem in nibh facilisis pharetra non at libero. Curabitur lacinia finibus vehicula. Nam sapien velit, scelerisque quis justo vitae, maximus ultrices neque. Ut sodales sapien eget sapien posuere condimentum. Duis molestie rhoncus enim, non molestie lorem feugiat a. Cras sollicitudin est ut odio sollicitudin, vitae vehicula augue blandit. Vestibulum fringilla metus quis sem tincidunt maximus. Proin nisl nisl, varius vitae tincidunt nec, blandit eu erat. Donec consequat mattis ex, tempus molestie arcu accumsan id. Vestibulum a ligula vel nisl gravida ullamcorper. Aliquam efficitur mauris quis blandit luctus. Integer efficitur lectus et nisl porta feugiat.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

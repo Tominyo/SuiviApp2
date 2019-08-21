@@ -19,12 +19,12 @@ public class CommitAdapter extends RecyclerView.Adapter<CommitAdapter.CommitView
     private Date prevDate, currentDate;
 
     public class CommitViewHolder extends RecyclerView.ViewHolder {
-        public TextView commitDateTV;
         public TextView commitMessageTV;
+        public TextView commitTimeTV;
 
         public CommitViewHolder(View view) {
             super(view);
-            commitDateTV = view.findViewById(R.id.textview_commit_date);
+            commitTimeTV = view.findViewById(R.id.textview_commit_time);
             commitMessageTV = view.findViewById(R.id.textview_commit_message);
             prevDate = new Date();
             currentDate = new Date();
@@ -49,10 +49,9 @@ public class CommitAdapter extends RecyclerView.Adapter<CommitAdapter.CommitView
     public void onBindViewHolder(CommitAdapter.CommitViewHolder holder, int position) {
         Commit commit = projetsList.get(position);
 
-
-        String dateTexte = DateFormat.getDateInstance().format(commit.getDate());
-        holder.commitDateTV.setText(dateTexte);
+        String dateTexte = commit.getDate();
         holder.commitMessageTV.setText(commit.getMessage());
+        holder.commitTimeTV.setText(dateTexte);
 
     }
 

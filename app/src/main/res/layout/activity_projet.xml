@@ -17,14 +17,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="30sp"
-            android:gravity="center"
             android:text="Projet 1" />
 
         <TextView
             android:id="@+id/textview_projet_state"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center"
             android:text="en cours" />
         <ProgressBar
             android:id="@+id/progress_bar"
@@ -38,20 +36,15 @@
 
 
 
-                <ScrollView
-                    android:id="@+id/scrollview_main"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
-                    <android.support.v7.widget.RecyclerView
-                        android:id="@+id/recycler_view"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
-
-                </ScrollView>
-
-
+        <android.support.v4.view.ViewPager
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
 
 
     </LinearLayout>
+
+
 
 </RelativeLayout>
